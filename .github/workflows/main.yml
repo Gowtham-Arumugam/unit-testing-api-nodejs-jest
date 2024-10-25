@@ -3,8 +3,6 @@ on: workflow_dispatch
 jobs:
     Testing:
         runs-on: ubuntu-latest
-
-        steps: 
-            - name: teest
-                runs: echo "helooo"
-  
+        steps:
+        - name: testing
+            runs: echo "dd"
