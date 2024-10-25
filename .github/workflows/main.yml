@@ -4,9 +4,8 @@ jobs:
     Testing:
         runs-on: ubuntu-latest
         steps:
-          - name: sldfj
-            run: echo "sdkhfhhk"
-          - name: lsdkf
-            run: echo "sdkljflkjs"
           - name: Checkout
             uses: actions/checkout@v4
+          - name: npm install
+            run: npm install
+          - name: npm start
