@@ -4,5 +4,7 @@ jobs:
     Testing:
         runs-on: ubuntu-latest
         steps:
+          - name: lsdkf
+            run: echo "sdkljflkjs"
           - name: Checkout
             uses: actions/checkout@v4
