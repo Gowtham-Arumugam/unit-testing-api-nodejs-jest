@@ -3,7 +3,8 @@ on: workflow_dispatch
 jobs:
     Testing:
         runs-on: ubuntu-latest
-        steps:
-        - name: code checkout
-            runs: echo "hello world"
+
+        steps: 
+            - name: soemksdj
+                runs: lskdjflksdj
   
