@@ -4,5 +4,5 @@ jobs:
     Testing:
         runs-on: ubuntu-latest
         steps:
-        - name: testing
-            runs: echo "dd"
+            - name: sdkfkl
+                runs: echo "hello world" 
