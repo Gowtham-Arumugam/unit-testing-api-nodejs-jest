@@ -1,1 +1,9 @@
-name: using testing 2
+name: Test & Deploy
+on: workflow_dispatch
+jobs:
+    Testing:
+        runs-on: ubuntu-latest
+        steps:
+        - name: code checkout
+            runs: echo "hello world"
+  
