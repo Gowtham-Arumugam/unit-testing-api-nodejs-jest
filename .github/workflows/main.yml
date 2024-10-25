@@ -10,3 +10,5 @@ jobs:
             run: node --version
           - name: npm install
             run: npm install
+          - name: testing
+            run: npm test
