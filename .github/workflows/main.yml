@@ -4,6 +4,8 @@ jobs:
     Testing:
         runs-on: ubuntu-latest
         steps:
+          - name: sldfj
+            run: echo "sdkhfhhk"
           - name: lsdkf
             run: echo "sdkljflkjs"
           - name: Checkout
