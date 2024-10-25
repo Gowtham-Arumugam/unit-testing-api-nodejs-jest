@@ -7,6 +7,6 @@ jobs:
           - name: Checkout
             uses: actions/checkout@v4
           - name: npm install
-            run: npm install
+            run: node --version
           - name: npm start
             run: npm start
